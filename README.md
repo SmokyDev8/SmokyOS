@@ -32,9 +32,5 @@ This is still in beta and can have odd bugs and issues. If you happen to find an
 
 [STEP-9(EXTRA)] If u want all commands in one go(these are just the above commands but for the ease of copy/pasting):-
 
-`cd
-sudo apt update && sudo apt install git -y
-git clone https://github.com/SmokyDev8/SmokyOS.git
-cd SmokyOS
-sudo bash ./DEB12-SmokyOS.sh`
+`cd && sudo apt update && sudo apt install git -y && git clone https://github.com/SmokyDev8/SmokyOS.git && cd SmokyOS && sudo bash ./DEB12-SmokyOS.sh`
 

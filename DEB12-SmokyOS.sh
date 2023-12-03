@@ -16,8 +16,6 @@ echo 'Give This Guy Root Permission or Ignore If Youre Already In Root'
 
 #Start: Get root permissions & Replace all the repos correctly
 
-sudo -i
-
 echo "deb http://deb.debian.org/debian/ bookworm main non-free-firmware" > /etc/apt/sources.list
 echo "deb http://security.debian.org/debian-security bookworm-security main non-free-firmware" >> /etc/apt/sources.list
 echo "deb http://deb.debian.org/debian/ bookworm-updates main non-free-firmware" >> /etc/apt/sources.list

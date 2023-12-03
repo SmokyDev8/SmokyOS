@@ -32,7 +32,7 @@ apt install adduser -y
 
 #Step 3: Configure the os
 
-//os-release
+#os-release
 echo 'PRETTY_NAME="SmokyOS GNU/Linux 1.2 (destroyer)"' > /etc/os-release
 echo 'NAME="SmokyOS GNU/Linux"' >> /etc/os-release
 echo 'VERSION_ID="1.2"' >> /etc/os-release
@@ -43,13 +43,13 @@ echo 'HOME_URL="https://www.debian.org/"' >> /etc/os-release
 echo 'SUPPORT_URL="https://www.debian.org/support"' >> /etc/os-release
 echo 'BUG_REPORT_URL="https://bugs.debian.org/"' >> /etc/os-release
 
-//issue
+#issue
 echo 'SmokyOS GNU/Linux 1.2 \n \l' > /etc/issue
 
-//issue.net
+#issue.net
 echo 'SmokyOS GNU/Linux 1.2' > /etc/issue.net
 
-//grub
+#grub
 echo "GRUB_DEFAULT=0" > /etc/default/grub
 echo "GRUB_TIMEOUT=5" >> /etc/default/grub
 echo "GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo SmokyOS`" >> /etc/default/grub
@@ -62,17 +62,17 @@ echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
 sudo update-grub
 update-grub
 
-//logo (undeveloped)
+#logo (undeveloped)
 #rm -rf /usr/share/pixmaps/debian-logo.png
 #rm -rf /usr/share/pixmaps/debian-security.png
 
-//neofetch
+#neofetch
 cd $HOME/.config/neofetch/
 rm -rf ./config.conf
 wget https://github.com/SmokyDev8/SmokyOS/blob/Neofetch-Config/config.conf
 cd /
 
-//Desktop Environment
+#Desktop Environment
 apt purge --autoremove task-* -y
 apt install task-gnome-desktop -y
 

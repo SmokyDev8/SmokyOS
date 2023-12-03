@@ -10,7 +10,7 @@ It converts your boring old debian install into a new fresh and fancy OS, while 
 5. In-built Maps app and many other useful software
 6. Supports to run on most hardware
 7. Many In-built themes to match your style
-8. Modern-Styled UI
+8. Minimalistic yet, modern-styled UI
 
 # Warning!
 This is still in beta and can have odd bugs and issues. If you happen to find any kindly report them.

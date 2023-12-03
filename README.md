@@ -2,6 +2,16 @@
 My first operating system based on debian 12(bookworm)
 It converts your boring old debian install into a new fresh and fancy OS, while setting up all your repositories and stuff.
 
+# Features
+1. Many in-built games like chess, 2048 etc.
+2. In-built Libre-Office
+3. Beautiful and very customizable Gnome Desktop Environment
+4. In-built software store
+5. In-built Maps app and many other useful software
+6. Supports to run on most hardware
+7. Many In-built themes to match your style
+8. Modern-Styled UI
+
 # Warning!
 This is still in beta and can have odd bugs and issues. If you happen to find any kindly report them.
 

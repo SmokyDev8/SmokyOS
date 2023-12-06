@@ -73,7 +73,6 @@ wget https://github.com/SmokyDev8/SmokyOS/blob/Neofetch-Config/config.conf
 cd /
 
 #Desktop Environment
-apt purge --autoremove task-* -y
 apt install task-gnome-desktop -y
 
 #Step 4(last): End
